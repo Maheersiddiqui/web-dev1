@@ -1,0 +1,15 @@
+let a=10  ;
+let name="Maheer";
+const string=' name ';
+let full_name1;
+a=20;
+let value1=10;
+let value2=21;
+let sum= value1 + value2; 
+let subtraction= value2- value1;
+var mod=  value2%value1;
+let A=10;
+let power=2**2;
+console.log(a, Value2);
+console.log(typeof a);
+console.log("hello world");
