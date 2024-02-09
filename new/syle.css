@@ -1,0 +1,19 @@
+#parent{
+    height: 300px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#child{
+    height: 150px;
+    width: 150px;
+}
+@media (max-width:400px) {
+    #parent{
+        flex-direction: column;
+        height: 600px;
+    }
+}

@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+
+div{
+    background-color: blueviolet;
+    height: 300px;
+    width: 300px;
+    animation-name: for-div;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    /* animation-delay: 2s; */
+    
+}
+h1{
+    margin: 100px;
+    color: burlywood;
+}
+@keyframes for-div {
+    from{
+        background-color: blueviolet;
+        border-radius: 0%;
+    }
+    to{
+        background-color: aquamarine ;
+        border-radius:  50%;
+    }
+}
+@keyframes identifier {
+    
+}
